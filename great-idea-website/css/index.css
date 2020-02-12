@@ -18,11 +18,12 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -63,4 +64,103 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
 /* Your code starts here! */
+
+
+body {
+	padding: 20px 5%;
+}
+/*header stuff*/
+
+header {
+	padding-bottom: 40px;
+}
+
+header a {
+	color:gray;
+	text-decoration: none;
+	margin: 0 3%;
+}
+
+header nav {
+	display:inline-block;
+	width:70%;
+	/* white-space: nowrap; */
+}
+
+header .logo {
+	display:inline-block;
+	position:absolute;
+	right:10%;
+}
+
+
+
+
+
+
+/*intro styling*/
+
+.introduction {
+	margin-bottom:40px;
+}
+.introduction div {
+	display:inline-block;
+	width: 40%;
+	margin: 0 4.9%;
+	vertical-align:middle;
+}
+
+.introduction p {
+	border: 1px solid black;
+	height: 20px;
+	width: 150px;
+	text-align: center; 
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.introduction h1 {
+	font-size: 5em;
+	text-align: center;
+}
+
+
+/* Style the text and the image */
+
+.middle {
+	padding: 2% 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.top-row div{
+	width:49%;
+	display:inline-block;
+}
+
+.middle img {
+	width: 100%;
+	margin: 3% 0;
+}
+
+.bottom-row div {
+	width:30%;
+	margin: 1%;
+	display:inline-block;
+}
+
+/*style the footer*/
+
+footer {
+	margin-top: 30px;
+}
+
+address p {
+	margin: 2% 0%;
+}
+
+.copyright {
+	text-align: center;
+}
